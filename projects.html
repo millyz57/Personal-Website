@@ -7,7 +7,7 @@
     <!-- import the webpage's stylesheet -->
 	<link rel="stylesheet" href="style.css">
 	<!-- import the webpage's javascript file -->
-	<script src="/script.js" defer> </script>
+	<script src="/script.js" defer></script>
     <!-- import the webpage's icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -26,56 +26,103 @@
         </div>
     </div>
 
-    <div class="checks">
-        <input type="radio" name="Photo" id="check1">
-        <input type="radio" name="Photo" id="check2">
-        <input type="radio" name="Photo" id="check3">
-        <input type="radio" name="Photo" id="check4">
-    </div>
-
 
     <div class="contains">
         <h1 class="subtitle">Photo Gallery</h1>
-        <div class="heading">
-            <label for="check1">All</label>
-            <label for="check2">Animation</label>
-            <label for="check3">Websites</label>
-            <label for="check4">Illustrations</label>
+
+        <div class="tab">
+        <button class="tablinks" onclick="onButtonClick(event, 'all')">All</button>
+        <button class="tablinks" onclick="onButtonClick(event, 'animation')">Animation</button>
+        <button class="tablinks" onclick="onButtonClick(event, 'websites')">Websites</button>
+        <button class="tablinks" onclick="onButtonClick(event, 'illustrations')">Illustration</button>
         </div>
+
 
         <div class="gallery">
             <div class="photo animation">
-                <img src="images/tester.png">
+                <img src="images/Nova.jpg">
+                <p> Nova Character Sheet</p>
             </div>
             <div class="photo websites">
-                <img src="images/tester.png">
+                <img src="images/culinary quest.jpg">
             </div>
             <div class="photo illustrations">
-                <img src="images/tester.png">
+                <img src="images/workshop.jpg">
             </div>
             <div class="photo animation">
-                <img src="images/tester.png">
+                <img src="images/Animated kick.gif">
             </div>
             <div class="photo websites">
-                <img src="images/tester.png">
+                <img src="images/3d room.jpg">
             </div>
             <div class="photo illustrations">
-                <img src="images/tester.png">
+                <img src="images/flowers.jpg">
             </div>
             <div class="photo animation">
-                <img src="images/tester.png">
+                <img src="images/cook.gif">
             </div>
             <div class="photo websites">
-                <img src="images/tester.png">
+                <img src="images/ai.jpg">
+            </div>
+            <div class="photo animation">
+                <img src="images/hand.jpg">
             </div>
             <div class="photo illustrations">
-                <img src="images/tester.png">
+                <img src="images/Art and poetry contest.jpg">
+            </div>
+            <div class="photo websites">
+                <img src="images/movie.jpg">
             </div>
             <div class="photo illustrations">
-                <img src="images/tester.png">
+                <img src="images/Figure drawinng.jpg">
+            </div>
+            <div class="photo illustrations">
+                <img src="images/sunflowers.jpg">
+            </div>
+            <div class="photo websites">
+                <img src="images/hongcha boocha.jpg">
+            </div>
+            <div class="photo illustrations">
+                <img src="images/ui.jpg">
+            </div>
+            <div class="photo illustrations">
+                <img src="images/room.JPG">
             </div>
         </div>
 
+    </div>
+
+    <!-- Footer page section --> 
+    <div class ="footer-container">
+        <div class ="footer">
+            <div class="footer-left">
+                <img src="images/logo.png">
+            </div>
+    
+            <div class="footer-right">
+                <div class="footer-title one">
+                    <h2> Useful Links </h2>
+                    <a href= "index.html">Home</a>
+                    <a href= "experience.html"> Experience</a>
+                    <a href= "projects.html">Projects</a>
+                    <a href= "contact.html">Contact Me</a>
+                </div>
+            
+                <div class="footer-title two">
+                    <h2> Keep Connected </h2>
+                    <p><i class="fa-solid fa-square-envelope"></i> Mzheng82@gatech.edu</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 1-917-669-1219</p>
+                </div>
+        
+                <div class="footer-title three">
+                    <h2> Contact Me </h2>
+                    <div class ="social-icons">
+                        <a href= ""><i class="fa-brands fa-instagram"></i></a> 
+                        <a href= ""><i class="fa-brands fa-linkedin"></i></a>  
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     
